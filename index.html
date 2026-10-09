@@ -55,6 +55,58 @@
                 <option value="student3">Солонець Іван</option>
                 <option value="student3">Скляр Дмитро</option>
             </select>
+            <h3>3.Таблиця</h3>
+            <table border="1">
+                <caption>Назва книги: Сміття</caption>
+                <tr>
+                    <th>Назва розділу</th>
+                    <th>Сторінка</th>
+                </tr>
+                <tr>
+                    <td>НОВА СПРАВА, або НЕЗНАЙОМЕЦЬ У БІЛІЙ МАЙЦІ</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>РОЗПОВІДЬ АЛЕВТИНИ, або СИН ШРЕДІНГЕРА</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>ПАЦЮЧІ ВОЛОДІННЯ, або ЇЖАК ЗА ДВІ ТИСЯЧІ БАКСІВ</td>
+                    <td>37</td>
+                </tr>
+                <tr>
+                    <td>РОЗПОВІДЬ ГЛІБА, або ЯК РОСЛОСЯ НА ДОНБАСІ</td>
+                    <td>63</td>
+                </tr>
+                <tr>
+                    <td>ХОЛОДНИЙ ЧАЙ, або НАВІТЬ НЕ ДУМАЙ ПОГРОЖУВАТИ</td>
+                    <td>104</td>
+                </tr>
+            </table>
+            <h3>4.Форма</h3>
+            <form action="#">
+                <p>
+                    <label for="student_name">ПІБ студента:</label><br>
+                    <input type="text" id="student_name" name="student_name" placeholder="Введіть ПІБ">
+                </p>
+                <p>
+                    <label for="group_name">Група:</label><br>
+                    <input type="text" id="group_name" name="group_name" placeholder="Наприклад, КІУКІ-22-1">
+                </p>
+                <p>
+                    Форма навчання:<br>
+                    <label>
+                        <input type="radio" name="study_form" value="budget"> Бюджет
+                    </label><br>
+                    <label>
+                        <input type="radio" name="study_form" value="contract"> Контракт
+                    </label><br>
+                </p>
+                <p>
+                    <input type="submit" value="Відправити">
+                    <input type="reset" value="Очистити">
+                </p>
+            </form>
         </section>
     </main>
 </body>
